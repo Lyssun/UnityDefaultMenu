@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu( menuName = "ScriptableObject/Settings", fileName = "Default_Settings")]
 public class Settings : ScriptableObject,
     ISerializationCallbackReceiver
 {
